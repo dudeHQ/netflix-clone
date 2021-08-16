@@ -15,26 +15,29 @@ body {
   background-color: var(--preto);
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  
 }
-header .container {
+header .container,
+footer .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-header .logo {
+header .logo,
+footer .logo {
   color: var(--vermelho);
   font-family: "Arial Black", Times;
   font-size: 40px;
   margin-left: 5px;
 }
-header nav a {
+header nav a,
+footer nav a {
   text-decoration: none;
   color: #aaa;
   margin-right: 10px;
 }
-header nav a:hover {
+header nav a:hover,
+footer nav a:hover {
   color: #fff;
 }
 
@@ -69,7 +72,7 @@ header nav a:hover {
   color: white;
   margin-right: 15px;
   font-size: 12px;
-  cursor: pointer;  
+  cursor: pointer;
   transition: 0.3s ease all;
 }
 .botao:hover {
@@ -79,19 +82,22 @@ header nav a:hover {
 .botao i {
   margin-right: 5px;
 }
-.container{
-    margin-left: 20px;
-   
+.container {
+  margin-left: 20px;
 }
-.filme-principal .container{
-    width: 70%;
+.filme-principal .container {
+  width: 70%;
 }
-.box-filmes{
-    height: 100%;
-    width: 100%;
-    display: block;
-    cursor: pointer; 
+.box-filmes {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
 }
-.carrosel-filmes{
+.carrosel-filmes {
   margin-top: 5px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  display: none;
 }

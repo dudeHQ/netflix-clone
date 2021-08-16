@@ -23,12 +23,19 @@ footer .container {
   align-items: center;
   justify-content: space-between;
 }
-header .logo,
-footer .logo {
+header .logo {
   color: var(--vermelho);
   font-family: "Arial Black", Times;
   font-size: 40px;
   margin-left: 5px;
+}
+
+footer {
+  padding: 40px 0;
+}
+
+footer p {
+  color: #aaa;
 }
 header nav a,
 footer nav a {
@@ -100,4 +107,14 @@ footer nav a:hover {
 
 .owl-theme .owl-dots .owl-dot span {
   display: none;
+}
+
+h3#filmes {
+  margin: 20px 0 10px 10px;
+}
+
+h3#series,
+h3#classicos,
+h3#docs {
+  margin: 0 0 10px 10px;
 }

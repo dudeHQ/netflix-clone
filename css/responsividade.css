@@ -6,15 +6,22 @@
     padding-bottom: 5px;
   }
 
-  footer,footer p{
-      padding: 0 0 20px 0;
+  footer,
+  footer p {
+    padding: 0 0 20px 0;
   }
-  
 
   .botao {
     margin-top: 5px;
     width: 300px;
   }
+
+  .descricao {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;}
 }
 
 @media screen and (min-width: 1000px) {

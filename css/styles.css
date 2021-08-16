@@ -105,18 +105,6 @@ footer nav a:hover {
   margin-top: 5px;
 }
 
-.owl-theme .owl-dots .owl-dot span {
-  display: none;
-}
-
-h3#filmes {
+h3 {
   margin: 20px 0 10px 10px;
 }
-
-h3#series,
-h3#classicos,
-h3#docs {
-  margin: 0 0 10px 10px;
-}
-
-
